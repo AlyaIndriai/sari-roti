@@ -1039,3 +1039,48 @@ footer {
         flex-direction: column;
     }
 }
+
+/* ==============================
+   DOKUMENTASI LAPORAN
+============================== */
+
+.report-image-box {
+    margin-top: 30px;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #eadfd7;
+    border-radius: 12px;
+}
+
+.report-image-box h2 {
+    color: #57151e;
+    margin-bottom: 8px;
+}
+
+.report-image-box > p {
+    color: #777777;
+    margin-bottom: 25px;
+}
+
+.report-image-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.report-image-item img {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #eadfd7;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.image-caption {
+    margin-top: 10px;
+    color: #666666;
+    font-size: 14px;
+    font-style: italic;
+}
